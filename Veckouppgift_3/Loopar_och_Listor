@@ -1,1 +1,71 @@
+#1a 
+answer = 0
+
+for i in range(1, 11):
+    answer += i
+
+print("Summan av talen 1 till 10 är: " + str(answer))
+
+
+#1b
+
+answer = 0
+
+for i in range(1, 101):
+    answer += i
+
+print(answer)
+
+#1c_med while-loop
+answer = 0
+i = 1
+
+while i <= 100:
+    answer += i
+    i += 1
+
+print(answer)
+
+#2
+numbers = [1, -2, 3, -2, 4, -3]
+
+answer = 0
+
+for number in numbers:
+    answer += number
+
+print(answer)
+
+#Svaret blir 1
+
+#3a-3h
+movies = ["Titanic", "Avatar", "Shrek", "Frozen"]
+
+print(movies)
+
+movies.append("Fellowship of the ring")
+print(movies)
+
+movies.insert(0, "The two towers")
+print(movies)
+
+index = movies.index("Fellowship of the ring")
+print(index)
+
+movies.remove("Avatar")
+print(movies)
+
+index = movies.index("Fellowship of the ring")
+print(index)
+
+length = len(movies)
+print(length)
+
+movies.reverse()
+print(movies)
+
+movies.sort()
+print(movies)
+
+
 
